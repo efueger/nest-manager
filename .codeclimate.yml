@@ -1,0 +1,18 @@
+version: "2"
+# prepare:
+#   fetch:
+#     - url: "https://raw.githubusercontent.com/example/example/master/rubocop.yml"
+#       path: "alternate-rubocop-path.yml"
+# checks:
+#   method-lines:
+#     config:
+#       threshold: 100
+#   argument-count:
+#     enabled: false
+plugins:
+  codeclimate-codenarc:
+    enabled: true
+     channel: "beta"
+exclude_patterns:
+  - "spec/"
+ 
