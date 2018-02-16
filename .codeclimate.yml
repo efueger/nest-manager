@@ -10,7 +10,7 @@ version: "2"
 #   argument-count:
 #     enabled: false
 plugins:
-  codeclimate-codenarc:
+  codenarc:
     enabled: true
     channel: "beta"
 exclude_patterns:
