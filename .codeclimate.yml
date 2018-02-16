@@ -12,7 +12,7 @@ version: "2"
 plugins:
   codeclimate-codenarc:
     enabled: true
-     channel: "beta"
+    channel: "beta"
 exclude_patterns:
   - "spec/"
  
